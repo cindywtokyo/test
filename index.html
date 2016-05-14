@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>大鳥居百貨店</title>
+<style type="text/css">
+@import url(style.css);
+</style>
+<link type="text/css" href="css/jquery.bxslider.css" rel="stylesheet" media="all" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.slider').bxSlider({
+		auto: true,
+		pause:	5000,
+		speed: 1000,
+		mode: 'fade',
+		inifiniteLoop: true,
+		pagerCustom: '.bx-pager'
+		});
+});
+</script>
+</head>
+<body class="top">
+<div id="container">
+<div id="header">
+<img src="img/logo.png" alt="大鳥居百貨店"/>
+</div>
+<div id="gnav">
+<ul><li class="gnav01"><a href="index.html">トップページ</a></li><!--
+--><li class="gnav02"><a href="floorguide.html">各階のご案内</a></li><!--
+--><li class="gnav03"><a href="eventinfo.html">催事情報</a></li><!--
+--><li class="gnav04"><a href="map.html">地図・営業時間</a></li><!--
+--><li class="gnav05"><a href="parking.html">駐車場</a></li></ul>
+</div>
+<div id="contents">
+<div id="bxslider-wrapper">
+<div class="slider">
+<div><img src="img/hokkaido.jpg"></div>
+<div><img src="img/shinseikatsu.jpg"></div>
+<div><img src="img/whiteday.jpg"></div>
+<div><img src="img/dinner.jpg"></div>
+</div>
+<div class="bx-pager">
+<a data-slide-index="0" href=""><img src="img/hokkaido.jpg" width="200px"></a>
+<a data-slide-index="1" href=""><img src="img/shinseikatsu.jpg" width="200px"></a>
+<a data-slide-index="2" href=""><img src="img/whiteday.jpg" width="200px"></a>
+<a data-slide-index="3" href=""><img src="img/dinner.jpg" width="200px"></a></div>
+</div>
+<div id="sidebar"><img src="img/spring.png"><img src="img/kimono.png"><img src="img/beauty.png"><img src="img/bridal.png"><img src="img/gogatsu.png"><img src="img/sweets.png"></div>
+<div id="main">
+<h2>お知らせ</h2>
+<dl>
+<dt>2015.3.1.</dt><dd>ホワイトデー特設コーナーが登場！</dd>
+<dt>2015.2.27.</dt><dd>４階 AOZORA CAFE「宇治抹茶ラテ」新発売！</dd>
+<dt>2015.2.16</dt><dd>屋上プレイランドは改修工事に伴い3月末まで閉鎖しております。ご了承下さいますようお願い申し上げます。</dd></dl>
+
+<h2>ごあいさつ</h2>
+<p>大鳥居百貨店は創業48年を迎え、地域の皆様をはじめ、羽田空港利用客の皆様にもご愛顧いただいております。<br/>今後も皆様に楽しいお買い物をしていただけるよう精進してまいります。お越しをお待ち申し上げております。</p></div>
+</div>
+<div id="footer"><ul><li><a href="privacy.html">プライバシーポリシー</a></li><!--
+--><li><a href="recruit.html">採用情報</a></li></ul></div>
+<p id="copyright">このウェブサイトは練習用に作成されたものであり、大鳥居百貨店は存在しません。<br>Copyright &copy; 2015 Y.Takehara All Rights Reserved.</p>
+</div>
+</body>
+</html>
